@@ -1,4 +1,4 @@
-.logo-header-WebStudio {
+.logo-header-webstudio {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -13,8 +13,8 @@
   color: #2196f3;
 }
 
-.top-main-line :hover,
-.top-main-line :focus {
+.nav-header-list :hover,
+.nav-header-list :focus {
   color: #2196f3;
 }
 
@@ -150,7 +150,7 @@
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  /* color: #FFFFFF; */
+  color: #ffffff;
 }
 
 .lower-main-line {
