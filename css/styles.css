@@ -187,6 +187,10 @@ body {
   color: #2196f3;
 }
 
+.all-button-portfolio {
+  text-align: center;
+}
+
 .button-portfolio {
   font-family: "Roboto", sans-serif;
   font-style: normal;
