@@ -11,10 +11,17 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="top-main-line">
+    <header class="top-main-line container header-container">
       <a class="logo-header-webstudio" href="./index.html">
         <span class="colortext-logo">Web</span>Studio</a
       >
@@ -33,56 +40,62 @@
           </li>
         </ul>
       </nav>
-      <ul class="nav-header-contacts">
-        <li class="nav-header-list">
-          <a class="nav-header-link contacts" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="nav-header-list">
-          <a class="nav-header-link contacts" href="tel:+380961111111"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      <div class="div-contacts">
+        <ul class="nav-header-contacts">
+          <li class="nav-header-list">
+            <a class="nav-header-link contacts" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="nav-header-list">
+            <a class="nav-header-link contacts" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
     </header>
     <main class="hero">
-      <section class="hero-block">
-        <h1 class="hero-description">
-          Эффективные решения <br />
-          для вашего бизнеса
-        </h1>
-        <button class="hero-button" type="button">
-          <span class="button-name">Заказать услугу</span>
-        </button>
-      </section>
-      <section class="peculiarities">
-        <h3 class="peculiarities-work">Внимание к деталям</h3>
-        <p class="work-description">
-          Идейные соображения, а также<br />
-          начало повседневной работы по<br />
-          формированию позиции.
-        </p>
-        <h3 class="peculiarities-work">Пунктуальность</h3>
-        <p class="work-description">
-          Задача организации, в особенности <br />
-          же рамки и место обучения кадров <br />
-          влечет за собой.
-        </p>
-        <h3 class="peculiarities-work">Планирование</h3>
-        <p class="work-description">
-          Равным образом консультация с <br />
-          широким активом в значительной <br />
-          степени обуславливает.
-        </p>
-        <h3 class="peculiarities-work">Современные технологии</h3>
-        <p class="work-description">
-          Значимость этих проблем настолько<br />
-          очевидна, что реализация плановых <br />
-          заданий.
-        </p>
-      </section>
-      <section class="hours-working">
+      <div class="div-hero">
+        <section class="hero-block container">
+          <h1 class="hero-description">
+            Эффективные решения <br />
+            для вашего бизнеса
+          </h1>
+          <button class="hero-button" type="button">
+            <span class="button-name">Заказать услугу</span>
+          </button>
+        </section>
+      </div>
+      <div class="div-description">
+        <section class="peculiarities container">
+          <h3 class="peculiarities-work">Внимание к деталям</h3>
+          <p class="work-description">
+            Идейные соображения, а также<br />
+            начало повседневной работы по<br />
+            формированию позиции.
+          </p>
+          <h3 class="peculiarities-work">Пунктуальность</h3>
+          <p class="work-description">
+            Задача организации, в особенности <br />
+            же рамки и место обучения кадров <br />
+            влечет за собой.
+          </p>
+          <h3 class="peculiarities-work">Планирование</h3>
+          <p class="work-description">
+            Равным образом консультация с <br />
+            широким активом в значительной <br />
+            степени обуславливает.
+          </p>
+          <h3 class="peculiarities-work">Современные технологии</h3>
+          <p class="work-description">
+            Значимость этих проблем настолько<br />
+            очевидна, что реализация плановых <br />
+            заданий.
+          </p>
+        </section>
+      </div>
+      <section class="hours-working container">
         <h2 class="hours-working-title">Чем мы занимаемся</h2>
         <ul class="hours-working-gallery">
           <li class="hours-working-foto">
@@ -114,7 +127,7 @@
           </li>
         </ul>
       </section>
-      <section class="our-team">
+      <section class="our-team container">
         <h2 class="our-team-peculiarities">Наша команда</h2>
         <ul class="our-team-list">
           <li class="our-team-product-designer">
@@ -165,20 +178,22 @@
       </section>
     </main>
     <footer class="lower-main-line">
-      <a class="logo-footer-WebStudio" href="">
-        <span class="colortext-logo">Web</span>Studio</a
-      >
-      <address class="gps">г. Киев, пр-т Леси Украинки, 26</address>
-      <ul class="contacts">
-        <li class="contacts-foot-mail">
-          <a class="foot-mail" href="mailto:info@example.com"
-            >info@example.com</a
-          >
-        </li>
-        <li class="contacts-foot-tel">
-          <a class="foot-tel" href="tel:+380991111111">+38 099 111 11 11</a>
-        </li>
-      </ul>
+      <div class="container">
+        <a class="logo-footer-WebStudio" href="">
+          <span class="colortext-logo">Web</span>Studio</a
+        >
+        <address class="gps">г. Киев, пр-т Леси Украинки, 26</address>
+        <ul class="contacts">
+          <li class="contacts-foot-mail">
+            <a class="foot-mail" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li class="contacts-foot-tel">
+            <a class="foot-tel" href="tel:+380991111111">+38 099 111 11 11</a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
