@@ -97,6 +97,11 @@ img {
   text-decoration: none;
 }
 
+.main-hero {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
 .hero-description {
   font-style: normal;
   font-weight: 900;
@@ -173,7 +178,7 @@ img {
   color: #212121;
 }
 
-.work{
+.work {
   margin-bottom: 10px;
 }
 
@@ -331,6 +336,16 @@ img {
 .foot-tel:focus {
   color: #2196f3;
 }
+.all-button {
+  margin-top: 94px;
+  margin-bottom: 34px;
+}
+
+.foto-description-portfolio {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 24px 20px 24px;
+}
 
 .all-button-portfolio {
   text-align: center;
@@ -349,6 +364,7 @@ img {
   background: #f5f4fa;
   border-radius: 4px;
   cursor: pointer;
+  border: 0;
 }
 .button-portfolio:focus,
 .button-portfolio:hover {
@@ -360,6 +376,24 @@ img {
 }
 .list-hero {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.foto-portfolio:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
+.foto-portfolio:nth-last-child(n + 4) {
+  margin-bottom: 30px;
+}
+
+.foto-portfolio {
+  width: 370px;
+  height: 404px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 
 .name-project {
