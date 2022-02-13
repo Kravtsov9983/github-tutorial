@@ -146,14 +146,21 @@ img {
   font-size: 16px;
   line-height: 1.87;
   display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .peculiarities {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .peculiarities-work {
@@ -164,7 +171,10 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
-  text-transform: uppercase;
+}
+
+.work{
+  margin-bottom: 10px;
 }
 
 .work-description {
@@ -173,6 +183,11 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.hours-working-gallery {
+  display: flex;
+  justify-content: space-between;
 }
 
 .hours-working-title,
@@ -184,6 +199,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  padding-bottom: 50px;
 }
 
 .hours-working-gallery {
@@ -202,10 +218,44 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  padding-bottom: 10px;
 }
 
 .our-team {
   background: #f5f4fa;
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.our-team-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team:not(:nth-child(4n)) {
+  margin-right: 30px;
+}
+
+.team:not(:nth-child(4n)) {
+  margin-bottom: 30px;
+}
+
+.team {
+  width: 270px;
+  height: 368px;
+  left: 515px;
+  top: 1635px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.foto-description {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .our-team-position {
@@ -223,10 +273,14 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+  padding-bottom: 10px;
 }
 
 .lower-main-line {
+  display: flex;
+  align-items: center;
   background: #2f303a;
+  padding-top: 60px;
 }
 
 .logo-footer-WebStudio {
@@ -238,6 +292,13 @@ img {
   letter-spacing: 0.03em;
   color: #ffffff;
   text-decoration: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.footer-nav {
+  padding-top: 10px;
+  padding-bottom: 60px;
 }
 
 .foot-mail,
@@ -256,9 +317,12 @@ img {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-
   color: #757575;
   list-style: none;
+}
+
+.contacts-foot-mail {
+  padding-bottom: 10px;
 }
 
 .foot-mail:hover,
