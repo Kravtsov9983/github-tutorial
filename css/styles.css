@@ -36,6 +36,11 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+
+.top-main-line {
+  border-bottom: 1px solid #ececec;
+}
+
 .nav-header-lists {
   display: flex;
   align-items: center;
@@ -93,11 +98,6 @@ img {
   letter-spacing: 0.02em;
   color: #000000;
   text-decoration: none;
-}
-
-.main-hero {
-  margin-top: 94px;
-  margin-bottom: 94px;
 }
 
 .hero-description {
@@ -336,8 +336,14 @@ img {
 .foot-tel:focus {
   color: #2196f3;
 }
+
+.button-portfolio:not(:last-child) {
+  margin-right: 8px;
+}
+
 .all-button {
-  margin-top: 94px;
+  display: flex;
+  justify-content: center;
   margin-bottom: 34px;
 }
 
@@ -348,7 +354,8 @@ img {
 }
 
 .all-button-portfolio {
-  text-align: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .button-portfolio {
