@@ -347,6 +347,10 @@ img {
   margin-bottom: 34px;
 }
 
+.list-button {
+  list-style: none;
+}
+
 .foto-description-portfolio {
   display: flex;
   flex-direction: column;
