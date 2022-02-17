@@ -26,8 +26,6 @@ img {
 
 .container {
   width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -111,6 +109,11 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  padding-bottom: 30px;
+}
+
+.section-hero {
+  background: #2f303a;
 }
 
 .div-hero {
@@ -119,7 +122,6 @@ img {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background: #2f303a;
   height: 600px;
 }
 
@@ -127,8 +129,6 @@ img {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .hero-button {
@@ -169,6 +169,10 @@ img {
   padding-bottom: 94px;
 }
 
+.list-work {
+  list-style: none;
+}
+
 .peculiarities-work {
   font-style: normal;
   font-weight: bold;
@@ -193,7 +197,10 @@ img {
 
 .hours-working-gallery {
   display: flex;
-  justify-content: space-between;
+}
+
+.hours-working-foto:not(:last-child) {
+  margin-right: 30px;
 }
 
 .hours-working-title,
@@ -205,15 +212,20 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  padding-bottom: 50px;
 }
 
 .hours-working-gallery {
   list-style: none;
+  margin-top: 50px;
 }
 
 .our-team-list {
+  padding-top: 50px;
+  display: flex;
   list-style: none;
+}
+
+.team-box {
 }
 
 .worker-name {
@@ -224,7 +236,8 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
+  padding-top: 30px;
 }
 
 .our-team {
@@ -233,17 +246,8 @@ img {
   padding-top: 94px;
 }
 
-.our-team-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .team:not(:nth-child(4n)) {
   margin-right: 30px;
-}
-
-.team:not(:nth-child(4n)) {
-  margin-bottom: 30px;
 }
 
 .team {
@@ -257,13 +261,6 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.foto-description {
-  display: flex;
-  flex-direction: column;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
 .our-team-position {
   font-weight: normal;
   font-size: 16px;
@@ -271,6 +268,8 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  padding-top: 5px;
+  padding-bottom: 30px;
 }
 .gps {
   font-style: normal;
@@ -287,6 +286,7 @@ img {
   align-items: center;
   background: #2f303a;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-footer-WebStudio {
@@ -304,7 +304,6 @@ img {
 
 .footer-nav {
   padding-top: 10px;
-  padding-bottom: 60px;
 }
 
 .foot-mail,
