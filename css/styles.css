@@ -248,7 +248,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  padding-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .our-team {
@@ -279,7 +279,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
-  padding-top: 5px;
+  margin-top: 5px;
 }
 .gps {
   font-style: normal;
