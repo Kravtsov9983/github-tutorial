@@ -26,6 +26,8 @@ img {
 
 .container {
   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -33,8 +35,8 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .top-main-line {
@@ -161,15 +163,19 @@ img {
   padding-bottom: 10px;
 }
 
-.peculiarities {
+.div-works {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.peculiarities {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .list-work {
+  width: 270px;
   list-style: none;
 }
 
@@ -193,6 +199,10 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.hours-working {
+  padding-bottom: 94px;
 }
 
 .hours-working-gallery {
@@ -225,6 +235,11 @@ img {
   list-style: none;
 }
 
+.foto-description {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .worker-name {
   font-style: normal;
   font-weight: 500;
@@ -234,7 +249,6 @@ img {
   letter-spacing: 0.03em;
   color: #212121;
   padding-bottom: 5px;
-  padding-top: 30px;
 }
 
 .our-team {
@@ -266,7 +280,6 @@ img {
   letter-spacing: 0.03em;
   color: #757575;
   padding-top: 5px;
-  padding-bottom: 30px;
 }
 .gps {
   font-style: normal;
@@ -341,7 +354,7 @@ img {
 .all-button {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .list-button {
